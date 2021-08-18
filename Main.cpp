@@ -9,7 +9,7 @@ int main()
     {
         menu();
         cin >> op;
-        system("clear");
+        system("clr");
         switch (op)
         {
         case '1':
@@ -24,7 +24,7 @@ int main()
             cout << "ingrese cualquier tecla para continuar\n";
             cin.ignore();
             cin.get();
-            system("clear");
+            system("clr");
             break;
         case '2':
             piramide.imprimir1();
@@ -33,7 +33,7 @@ int main()
             piramide.imprimir2();
             break;
         case '4':
-            system("clear");
+            system("clr");
             break;
         default:
             cout << "Ingrese un numero valido\n";
@@ -41,7 +41,7 @@ int main()
             op = '0';
             cin.ignore();
             cin.get();
-            system("clear");
+            system("clr");
 
         }
     }

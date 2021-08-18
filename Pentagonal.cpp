@@ -72,7 +72,7 @@ void pentagonal::imprimir1() const
 	cout << "ingrese cualquier tecla para continuar\n";
 	cin.ignore();
 	cin.get();
-	system("clear");
+	system("clr");
 }
 
 void pentagonal::imprimir2() const
@@ -87,5 +87,5 @@ void pentagonal::imprimir2() const
 	cout << "ingrese cualquier tecla para continuar\n";
 	cin.ignore();
 	cin.get();
-	system("clear");
+	system("clr");
 }
